@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+p,
+body {
+    background-color: blue;
+}
+div,
+body {
+    background-color: bisque;
+}
+a,
+body {
+    background-color: brown;
+}
+body {
+    width: 10px;
+}
+body {
+    height: 10px;
+}
+a,
+body {
+    display:block;
+}
+div,
+body {
+    display: inline;
+}
+p,
+body {
+    display: inline-block;
+}

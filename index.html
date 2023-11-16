@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script 
+    src="https://kit.fontawesome.com/3446b9529d.js" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+ <h1>Hola esta es mi primera web </h1>
+ <div class="container">
+    <header>
+        <a href="index.html"><i class="fa-solid fa-computer"></i></a>
+        <nav>
+            <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+            <ul>
+                <li>inicio </li>
+                <li>Acerca de mi </li>
+                <li>Trabajos</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="seccion-principal">
+        <section class="seccion-1"></section>
+        <div class="Acerca-de-mi">
+            <h2>Acerca de mi</h2>
+            <p> Hola soy un pequeño chico que esta incursionando en el mundo de los pokemon y me gustaria ser un buen entrenador pokemon.</p>
+        </div>
+        <div class="Acerca-de-imagen">
+            <img src="img/pc.png" style="width: 760px;" alt="Imagen portada">
+            <img src="img/carl-raw-m3hn2Kn5Bns-unsplash.jpg" style="width: 760px;" alt="play zone">
+        </div>
+        <section class="seccion-2"></section>
+        <section class="seccion-3"></section>
+    </main>
+    <footer>
+        <h3> Origen de Nosotros</h3>
+        <p>Somos una empreza especializada en la creacion y host de juegos en pc y consolas</p>
+    </footer>
+ </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speaker Submission</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body> <script src="script.js"></script>
+    <footer class="form-header">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div class="form-row">
+            <button>Enviar</button>
+          </div>
+          <p class="alertas" id="alertas"></p>
+      </form>
+    </footer>
+  </body>
+</html>
